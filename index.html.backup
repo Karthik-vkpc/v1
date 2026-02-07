@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Will You Be My Valentine?</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Outfit:wght@400;600&display=swap"
+        rel="stylesheet">
+
+    <!-- Canvas Confetti -->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="glass-card" id="main-card">
+            <h1 class="main-title">Will you be my Valentine❤️?</h1>
+            <div class="buttons-container">
+                <button id="yes-btn" class="btn btn-yes">Yes</button>
+                <button id="no-btn" class="btn btn-no">No</button>
+            </div>
+        </div>
+
+        <div class="glass-card hidden" id="success-card">
+            <h1 class="success-title">Yippiee<br>I LOVE YOUU❤️❤️❤️</h1>
+            <p class="success-message">Best. Valentine. Ever.</p>
+            <img src="https://media.tenor.com/YLS73QvIHMkAAAAM/peach-and-goma-peach-and-goma-hug.gif"
+                alt="Peach and Goma Hug" id="success-gif">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
